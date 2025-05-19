@@ -29,7 +29,7 @@ export default function LoginScreen() {
 
     // aqui iria la lógica de autenticación
     console.log('Login attempt:', { email, password });
-    navigation.navigate('App');
+    navigation.navigate('Map');
   };
 
   return (
